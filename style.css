@@ -1,6 +1,14 @@
 html{
 
     font: 1.1em sans-serif;
+    height: 100%;
+    margin : 0;
+}
+
+body{
+    height: 100%;
+    margin : 0;
+
 }
 
 ul.top {
@@ -37,17 +45,44 @@ li a {
 li a:hover {
   background-color: #b6b8ba;
 }
+.containerImageText{
+    border: 3px solid black;
+    padding: 20px 40px 40px;
+    max-width: 800px;
+}
 
-.imagekangoo.img{
-    width: 50%;
-    height: 50%;
+.imagekangoo img{
+    width: 600px;
+    margin: 30px 30px 30px 0;
+    float: left;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.Kangootext{
+    display: inline-block;
 }
 
 footer {
     position: static;
-    width: 100%;
     padding: 10px;
     background-color: #103172;
+    color: #fff;
+
+
+}
+#mail img{
+    width: 5%;
+    height: 5%;
+    vertical-align : middle;
+
+}
+#mail {
+
+    padding-left: 40%;
+}
+#mail a{
+    text-decoration:none;
     color: #fff;
 
 
@@ -56,7 +91,6 @@ footer {
 .navFooterBackToTop a{
     padding: 6px ;
     display: block;
-    width: 100%;
     text-align: center;
     background-color: #1544a1;
     color: #fff;
@@ -107,7 +141,7 @@ input[type=submit]:hover {
     box-sizing : border-box;
     border-radius:5px;
     background-color:#f2f2f2;
-    padding:20px;
+    padding:10px;
     width: 100%;
     max-width: 440px;
     margin:0 auto;
