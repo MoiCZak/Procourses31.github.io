@@ -1,138 +1,143 @@
 <!DOCTYPE html>
-<html lang="fr">>
+<html lang="fr">
   <head>
     <meta charset="utf-8">
     <title>Procourses31</title>
     <link href="style.css" rel="stylesheet" type="text/css">
   </head>
 
-<body id="haut">
+    <body id="haut">
 
-<ul class="top">
-  <li> <a href="#haut">Qui sommes nous ?</a></li>
-  <li><a href="#us">Nos valeurs</a></li>
-  <li><a href="#container">Contact</a></li>
+        <ul class="menu">
+            <li><a href="#Quisommesnous">Qui sommes nous ?</a></li>
+            <li><a href="#valeurs">Nos valeurs</a></li>
+            <li><a href="#services">Nos services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
 
-</ul>
 
-<div class="containerImageText">
-    <div class="imagekangoo">
-        <img src="images/renaultkangoo.jpeg"/>
+
+
+
+        <div class="title" id="Quisommesnous">
+
+            <h1>Qui sommes nous ?</h1>
+
+        </div>
+
+        <div class="slideshow-container" >
+            <div class="mySlides">
+                <img src="images/renaultkangoo.jpeg" alt="Avatar" class="avatar">
+
+                <h3>Eco-responsable </h3>
+                <p>Nos vehicules sont electriques</p>
+
+            </div>
+
+            <div class="mySlides">
+                <h3>Qui Sommes nous </h3>
+                <p>I love you the more in that I believe you had liked me for my own sake and for nothing else</p>
+
+            </div>
+
+            <div class="mySlides">
+                <h3>Qui Sommes nous </h3>
+                <p>I love you the more in that I believe you had liked me for my own sake and for nothing else</p>
+
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <div class="dot-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";
+                dots[slideIndex-1].className += " active";
+            }
+        </script>
+
+
+
+
+
+        <div class="containerValeurs" id="valeurs">
+            <h2>Nos valeurs</h2>
+            <p>I love you the more in that I believe you had liked me for my own sake and for nothing else</p>
+        </div>
+
+
+        <div class="containerServices" id="services">
+            <h2>Nos services</h2>
+            <p>I love you the more in that I believe you had liked me for my own sake and for nothing else</p>
+        </div>
+
+        <div class="googleMap" >
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.66426264729!2d1.4817167111805802!3d43.63434631829207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aea2d7ca3d466d%3A0x675a34d7e1aa6c21!2s26%20Rue%20Th%C3%A9ron%20de%20Montaug%C3%A9%2C%2031200%20Toulouse!5e0!3m2!1sfr!2sfr!4v1628879626827!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        </div>
+        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+            <div class="contact" id="contact">
+                <h2>Contactez-nous</h2>
+                <form action="action_contact.php">
+                    <label for="fname">Nom</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Votre nom ">
+
+                    <label for="objet">Objet</label>
+                    <input type="text" id="objet" name="objet" placeholder="L'objet de votre message">
+
+                    <label for="emailAddress">Email</label>
+                    <input id="emailAddress" type="email" name="email" placeholder="Votre email">
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Votre message" style="height:200px"></textarea>
+
+                    <input type="submit" value="Envoyer">
+                </form>
+            </div>
+
+    </body>
+
+
+    <div class="navFooterBackToTop">
+        <a href="#haut">Retour en haut</a>
     </div>
-    <div class="kangooText">
-        <h2>Qui sommes nous ?</h2>
-        <p>"Cats like boxes because they are cryptic animals; they like to hide," Stephen Zawistowski, science adviser for the American Society for the Prevention of Cruelty to Animals, told Business Insider. "And a box gives them a place of safety and security."</p>
-    </div>
-</div>
- 
 
- <p>
+    <footer class="footer">
+        <div id="mail">
+            <a href="mailto:Procourses31@gmail.com"><img src="images/mailLogo.png" alt="Mail" />Procourses31@gmail.com</a>
+        </div>
+        <p class="bot">Procourses31</p>
+    </footer>
 
- <br>
- <br>
- <br>
-
- 	Sticky Navigation Example
-The navbar will stick to the top when you reach its scroll position.
-
-Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
-
-Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
-
-Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
-
-Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
-
-Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
-
-Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
-
-Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
-The navbar will stick to the top when you reach its scroll position.
-
-Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
-
-Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
-
-Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
-
-Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
-
-Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
-
-Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
-
-Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.The navbar will stick to the top when you reach its scroll position.
-
-Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
-
-Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
-
-Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
-
-Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
-
-Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
-
-Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
-
-Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.The navbar will stick to the top when you reach its scroll position.
-
-Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
-
-Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
-
-Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
-
-Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
-
-Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
-
-Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
-
-Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
-</p>
-    <div class="container" id="container">
-        <h1>Contactez-nous</h1>
-        <form action="action_contact.php">
-            <label for="fname">Nom</label>
-            <input type="text" id="fname" name="firstname" placeholder="Votre nom ">
-
-            <label for="objet">Objet</label>
-            <input type="text" id="objet" name="objet" placeholder="L'objet de votre message">
-
-            <label for="emailAddress">Email</label>
-            <input id="emailAddress" type="email" name="email" placeholder="Votre email">
-
-
-            <label for="message">Message</label>
-            <textarea id="message" name="message" placeholder="Votre message" style="height:200px"></textarea>
-
-            <input type="submit" value="Envoyer">
-        </form>
-    </div>
-
-
-</body>
-
-
-<div class="navFooterBackToTop">
-	<a href="#haut">Retour en haut</a>
-</div>
-
-
-
-
- <footer class="footer">
-     <div id="mail">
-
-         <a href="mailto:Procourses31@gmail.com"><img src="images/mailLogo.png"/>Procourses31@gmail.com</a>
-     </div>
-
-     <p class="bot">Procourses31</p>
-
-
-
-
- </footer>
 </html>
