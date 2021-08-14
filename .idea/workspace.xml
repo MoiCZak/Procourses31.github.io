@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8acdcc0d-4526-4331-82e7-8953dc7dd478" name="Default Changelist" comment="bugs fixed and  new container top">
+    <list default="true" id="8acdcc0d-4526-4331-82e7-8953dc7dd478" name="Default Changelist" comment="ajout nos services + nos valeurs + qui osmmes nous">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/renaultkangoo.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/renaultkangoo.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -61,7 +60,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628715355131</updated>
-      <workItem from="1628715356219" duration="15891000" />
+      <workItem from="1628715356219" duration="15972000" />
+      <workItem from="1628943756378" duration="1027000" />
     </task>
     <task id="LOCAL-00001" summary="bugs fixed and  new container top">
       <created>1628721769013</created>
@@ -77,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628878873941</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ajout nos services + nos valeurs + qui osmmes nous">
+      <created>1628892741814</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1628892741814</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,16 +100,18 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="bugs fixed and  new container top" />
-    <option name="LAST_COMMIT_MESSAGE" value="bugs fixed and  new container top" />
+    <MESSAGE value="ajout nos services + nos valeurs + qui osmmes nous" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout nos services + nos valeurs + qui osmmes nous" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1628878882229">
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1628892744218">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1628878882229" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1628892744218" />
     <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1628721736124">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
