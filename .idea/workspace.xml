@@ -21,8 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8acdcc0d-4526-4331-82e7-8953dc7dd478" name="Default Changelist" comment="1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Procourses31.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/Procourses31.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/mailLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/mailLogo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -38,6 +36,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1wb7IU9FnwMR5Tt0OoWneeHBwFu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
