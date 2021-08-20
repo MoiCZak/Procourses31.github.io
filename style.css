@@ -71,12 +71,13 @@ h1  {
     color: #103172;
 }
 h3  {
+    font-size: 26px;
     color: #103172;
 }
 
 .slideshow-container {
     position: static;
-    background: #f1f1f1f1;
+    background: white;
 }
 
 .mySlides {
@@ -87,7 +88,7 @@ h3  {
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 40%;
     width: auto;
     padding: 50px;
     color: #103172;
@@ -111,7 +112,7 @@ h3  {
 .dot-container {
     text-align: center;
     padding: 20px;
-    background: #ddd;
+    background: white;
 }
 
 .dot {
@@ -207,8 +208,9 @@ h3  {
 
 p.bot{
     font-size: 1.2em;
-    margin-bottom: 0px;
+    vertical-align : middle;
     margin-left: 5%;
+    margin-top: 0px;
 }
 h2  {
     color: #103172;
@@ -258,7 +260,6 @@ input[type=submit]:hover {
 
 footer {
     position: static;
-    padding: 6px;
     background-color: #103172;
     color: #fff;
     z-index: 1;
@@ -276,11 +277,35 @@ footer {
 
 }
 #mail {
-    padding-left: 40%;
+    padding-left: 42%;
+
 }
 #mail a{
     text-decoration:none;
     color: #fff;
+}
 
+
+#telephone {
+    padding-left: 42%;
+
+}
+
+#telephone img{
+    width: 3%;
+    height: 3%;
+    vertical-align : middle;
+    margin-right: 11px;
+
+}
+
+#telephone a{
+    text-decoration:none;
+    color: #fff;
+    margin-left: 55px;
+}
+#telephone a:hover{
+
+    text-decoration: underline;
 
 }
