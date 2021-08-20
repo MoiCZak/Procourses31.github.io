@@ -16,6 +16,7 @@ body{
 
 .menu {
     z-index: 2;
+    padding: 7px;
     left: 0;
     list-style-type: none;
     margin: 0;
@@ -32,8 +33,8 @@ body{
     display: inline-block;
     width: 200px;
     height: 38px;
-    padding-right: 80px;
-
+    margin-left: 50px;
+    padding-right: 350px;
 }
 .menu li{
     display: inline-block;
