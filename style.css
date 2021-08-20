@@ -57,13 +57,12 @@ body{
 }
 
 .title {
-    margin-left: 40%;
+    margin-left: 41%;
 }
 
 .avatar {
     vertical-align: middle;
-    width: 15%;
-    border-radius: 50%;
+    width: 20%;
 }
 
 
@@ -81,8 +80,7 @@ h3  {
 }
 
 .mySlides {
-    display: none;
-    padding: 150px;
+    padding: 100px;
     text-align: center;
 }
 
