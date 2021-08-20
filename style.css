@@ -16,7 +16,6 @@ body{
 
 .menu {
     z-index: 2;
-    padding-left : 40%;
     left: 0;
     list-style-type: none;
     margin: 0;
@@ -30,19 +29,23 @@ body{
                 0 20px 20px rgba(0, 0, 0, .15);
 }
 .logo img{
-    width: 10%;
+    width: 50%;
+    display: inline-block;
 
+}
+.menu li{
+    display: inline-block;
 }
 
 .onglets a{
     font-size: 1.2em;
     font-weight: bold;
     float: left;
-    display: block;
     color: #103172;
     text-align: center;
-    padding: 14px 16px;
+    padding: 18px 23px;
     text-decoration: none;
+    display: inline-block;
 }
 
 .onglets a:hover {
