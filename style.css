@@ -29,12 +29,15 @@ body{
                 0 20px 20px rgba(0, 0, 0, .15);
 }
 .logo img{
-    width: 50%;
     display: inline-block;
+    width: 200px;
+    height: 38px;
+    padding-right: 80px;
 
 }
 .menu li{
     display: inline-block;
+
 }
 
 .onglets a{
