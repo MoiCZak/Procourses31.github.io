@@ -21,8 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8acdcc0d-4526-4331-82e7-8953dc7dd478" name="Default Changelist" comment="1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action_contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/action_contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Procourses31.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/Procourses31.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/renaultkangoo.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +65,7 @@
       <updated>1628715355131</updated>
       <workItem from="1628715356219" duration="15972000" />
       <workItem from="1628943756378" duration="6104000" />
+      <workItem from="1629554403350" duration="1858000" />
     </task>
     <task id="LOCAL-00001" summary="bugs fixed and  new container top">
       <created>1628721769013</created>

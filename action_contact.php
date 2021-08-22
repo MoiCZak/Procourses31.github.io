@@ -4,7 +4,7 @@ if(!empty($_POST["send"])) {
     $email = $_POST["email"];
     $objet = $_POST["objet"];
     $message = $_POST["message"];
-    $toEmail = "zakariboy31@gmail.com";
+    $toEmail = "";
     $mailHeaders = "From: " . $name . "<". $email .">\r\n";
     if(mail($toEmail, $objet, $message, $mailHeaders)) {
         echo "Votre message a bien été envoyé !";
