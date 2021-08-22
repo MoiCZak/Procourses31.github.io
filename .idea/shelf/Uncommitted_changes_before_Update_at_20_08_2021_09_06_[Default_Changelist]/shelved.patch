@@ -1,0 +1,66 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"BranchesTreeState\">\n    <expand>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </expand>\n    <select />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"8acdcc0d-4526-4331-82e7-8953dc7dd478\" name=\"Default Changelist\" comment=\"1\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/images/Procourses31.png\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/images/Procourses31.png\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/images/mailLogo.png\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/images/mailLogo.png\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/index.html\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/style.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/style.css\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ComposerSettings\">\n    <execution />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectId\" id=\"1wb7IU9FnwMR5Tt0OoWneeHBwFu\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\n    <property name=\"node.js.path.for.package.eslint\" value=\"project\" />\n    <property name=\"node.js.path.for.package.tslint\" value=\"project\" />\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"8acdcc0d-4526-4331-82e7-8953dc7dd478\" name=\"Default Changelist\" comment=\"\" />\n      <created>1628715355131</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1628715355131</updated>\n      <workItem from=\"1628715356219\" duration=\"15972000\" />\n      <workItem from=\"1628943756378\" duration=\"6104000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"bugs fixed and  new container top\">\n      <created>1628721769013</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1628721769013</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"bugs fixed and  new container top\">\n      <created>1628878873941</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1628878873941</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"ajout nos services + nos valeurs + qui osmmes nous\">\n      <created>1628892741814</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1628892741814</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"ajout logo\">\n      <created>1628945051534</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1628945051534</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"final\">\n      <created>1629431931237</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1629431931238</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"reglage menu\">\n      <created>1629433475552</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1629433475553</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"1\">\n      <created>1629433963865</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1629433963866</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"8\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"bugs fixed and  new container top\" />\n    <MESSAGE value=\"ajout nos services + nos valeurs + qui osmmes nous\" />\n    <MESSAGE value=\"ajout logo\" />\n    <MESSAGE value=\"final\" />\n    <MESSAGE value=\"reglage menu\" />\n    <MESSAGE value=\"1\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"1\" />\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"320\" y=\"187\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1629433965690\">\n      <screen x=\"0\" y=\"0\" width=\"1440\" height=\"900\" />\n    </state>\n    <state x=\"320\" y=\"187\" key=\"Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900\" timestamp=\"1629433965690\" />\n    <state x=\"521\" y=\"368\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2\" timestamp=\"1628945020455\">\n      <screen x=\"0\" y=\"0\" width=\"1440\" height=\"900\" />\n    </state>\n    <state x=\"521\" y=\"368\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900\" timestamp=\"1628945020455\" />\n    <state x=\"385\" y=\"196\" width=\"670\" height=\"676\" key=\"search.everywhere.popup\" timestamp=\"1628890879900\">\n      <screen x=\"0\" y=\"0\" width=\"1440\" height=\"900\" />\n    </state>\n    <state x=\"385\" y=\"196\" width=\"670\" height=\"676\" key=\"search.everywhere.popup/0.0.1440.900@0.0.1440.900\" timestamp=\"1628890879900\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision b1e70b190b8e5556a3b4e21927e4aee61090e207)
++++ .idea/workspace.xml	(date 1629443124503)
+@@ -19,12 +19,8 @@
+     <select />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="8acdcc0d-4526-4331-82e7-8953dc7dd478" name="Default Changelist" comment="1">
++    <list default="true" id="8acdcc0d-4526-4331-82e7-8953dc7dd478" name="Default Changelist" comment="Ajout images avatar">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/images/Procourses31.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/Procourses31.png" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/images/mailLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/mailLogo.png" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -63,7 +59,7 @@
+       <option name="presentableId" value="Default" />
+       <updated>1628715355131</updated>
+       <workItem from="1628715356219" duration="15972000" />
+-      <workItem from="1628943756378" duration="6104000" />
++      <workItem from="1628943756378" duration="6280000" />
+     </task>
+     <task id="LOCAL-00001" summary="bugs fixed and  new container top">
+       <created>1628721769013</created>
+@@ -114,7 +110,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1629433963866</updated>
+     </task>
+-    <option name="localTasksCounter" value="8" />
++    <task id="LOCAL-00008" summary="Ajout images avatar">
++      <created>1629435477689</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1629435477689</updated>
++    </task>
++    <option name="localTasksCounter" value="9" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -139,13 +142,14 @@
+     <MESSAGE value="final" />
+     <MESSAGE value="reglage menu" />
+     <MESSAGE value="1" />
+-    <option name="LAST_COMMIT_MESSAGE" value="1" />
++    <MESSAGE value="Ajout images avatar" />
++    <option name="LAST_COMMIT_MESSAGE" value="Ajout images avatar" />
+   </component>
+   <component name="WindowStateProjectService">
+-    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1629433965690">
++    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1629435479726">
+       <screen x="0" y="0" width="1440" height="900" />
+     </state>
+-    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1629433965690" />
++    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1629435479726" />
+     <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1628945020455">
+       <screen x="0" y="0" width="1440" height="900" />
+     </state>
