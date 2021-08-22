@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8acdcc0d-4526-4331-82e7-8953dc7dd478" name="Default Changelist" comment="ajout fond">
+    <list default="true" id="8acdcc0d-4526-4331-82e7-8953dc7dd478" name="Default Changelist" comment="restriction sanitaire fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/action_contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/action_contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +63,7 @@
       <updated>1628715355131</updated>
       <workItem from="1628715356219" duration="15972000" />
       <workItem from="1628943756378" duration="6104000" />
-      <workItem from="1629554403350" duration="7263000" />
+      <workItem from="1629554403350" duration="7493000" />
     </task>
     <task id="LOCAL-00001" summary="bugs fixed and  new container top">
       <created>1628721769013</created>
@@ -130,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629649393150</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="restriction sanitaire fix">
+      <created>1629661121134</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1629661121134</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,17 +162,18 @@
     <MESSAGE value="1" />
     <MESSAGE value="finished" />
     <MESSAGE value="ajout fond" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout fond" />
+    <MESSAGE value="restriction sanitaire fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="restriction sanitaire fix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="394" y="97" key="#PHP" timestamp="1629646745147">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="394" y="97" key="#PHP/0.0.1440.900@0.0.1440.900" timestamp="1629646745147" />
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1629649400193">
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1629661124291">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1629649400193" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1629661124291" />
     <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1628945020455">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
