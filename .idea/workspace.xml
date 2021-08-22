@@ -19,12 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8acdcc0d-4526-4331-82e7-8953dc7dd478" name="Default Changelist" comment="1">
+    <list default="true" id="8acdcc0d-4526-4331-82e7-8953dc7dd478" name="Default Changelist" comment="finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/action_contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/action_contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Procourses31.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/Procourses31.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/renaultkangoo.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +35,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3" />
   <component name="ProjectId" id="1wb7IU9FnwMR5Tt0OoWneeHBwFu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -65,7 +64,7 @@
       <updated>1628715355131</updated>
       <workItem from="1628715356219" duration="15972000" />
       <workItem from="1628943756378" duration="6104000" />
-      <workItem from="1629554403350" duration="1858000" />
+      <workItem from="1629554403350" duration="5051000" />
     </task>
     <task id="LOCAL-00001" summary="bugs fixed and  new container top">
       <created>1628721769013</created>
@@ -116,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629433963866</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="finished">
+      <created>1629645245581</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1629645245581</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,13 +147,18 @@
     <MESSAGE value="final" />
     <MESSAGE value="reglage menu" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1629433965690">
+    <state x="394" y="97" key="#PHP" timestamp="1629646745147">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1629433965690" />
+    <state x="394" y="97" key="#PHP/0.0.1440.900@0.0.1440.900" timestamp="1629646745147" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1629645256870">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1629645256870" />
     <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1628945020455">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
