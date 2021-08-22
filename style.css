@@ -213,6 +213,7 @@ p.bot{
     vertical-align : middle;
     margin-left: 5%;
     margin-top: 0px;
+    padding-bottom: 10px;
 }
 h2  {
     color: #103172;
@@ -272,14 +273,12 @@ footer {
 
 }
 #mail img{
-    width: 5%;
-    height: 5%;
+    width: 4%;
     vertical-align : middle;
 
 }
 #mail {
-    padding-left: 42%;
-
+    text-align: center;
 }
 #mail a{
     text-decoration:none;
@@ -288,13 +287,12 @@ footer {
 
 
 #telephone {
-    padding-left: 42%;
+    text-align: center;
 
 }
 
 #telephone img{
-    width: 3%;
-    height: 3%;
+    width: 2%;
     vertical-align : middle;
     margin-right: 11px;
 
@@ -303,7 +301,6 @@ footer {
 #telephone a{
     text-decoration:none;
     color: #fff;
-    margin-left: 55px;
 }
 #telephone a:hover{
 
