@@ -30,17 +30,20 @@ body{
                 0 20px 20px rgba(0, 0, 0, .15);
 }
 .logo img{
+    width: 60%;
+}
+.logo {
     display: inline-block;
-    width: 200px;
-    height: 38px;
+
     margin-left: 50px;
-    padding-right: 350px;
 }
 .menu li{
     display: inline-block;
 
 }
-
+.onglets {
+    float: right;
+}
 .onglets a{
     font-size: 1.2em;
     font-weight: bold;
@@ -50,6 +53,7 @@ body{
     padding: 18px 23px;
     text-decoration: none;
     display: inline-block;
+    margin-right: 10px;
 }
 
 .onglets a:hover {
