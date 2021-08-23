@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8acdcc0d-4526-4331-82e7-8953dc7dd478" name="Default Changelist" comment="pied de page + refactoring pourcentage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action_contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/action_contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +65,8 @@
       <workItem from="1628715356219" duration="15972000" />
       <workItem from="1628943756378" duration="6104000" />
       <workItem from="1629554403350" duration="10564000" />
+      <workItem from="1629673014510" duration="28000" />
+      <workItem from="1629692736264" duration="1771000" />
     </task>
     <task id="LOCAL-00001" summary="bugs fixed and  new container top">
       <created>1628721769013</created>
@@ -170,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629663352563</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Fin">
+      <created>1629673030878</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1629673030878</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,17 +210,18 @@
     <MESSAGE value="restriction sanitaire fix" />
     <MESSAGE value="reglage logo et menu" />
     <MESSAGE value="pied de page + refactoring pourcentage" />
-    <option name="LAST_COMMIT_MESSAGE" value="pied de page + refactoring pourcentage" />
+    <MESSAGE value="Fin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fin" />
   </component>
   <component name="WindowStateProjectService">
     <state x="394" y="97" key="#PHP" timestamp="1629646745147">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="394" y="97" key="#PHP/0.0.1440.900@0.0.1440.900" timestamp="1629646745147" />
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1629663358238">
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1629673034055">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1629663358238" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1629673034055" />
     <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1628945020455">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

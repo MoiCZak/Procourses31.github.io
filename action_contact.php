@@ -1,6 +1,6 @@
 <?php
 
-    $name = $_POST["firstname"];
+    $name = $_POST["nom"];
     $email = $_POST["email"];
     $objet = $_POST["objet"];
     $message = $_POST["message"];
@@ -8,13 +8,9 @@
     $mailHeaders = "From: " . $name . "<". $email .">\r\n";
     if(mail($toEmail, $objet, $message, $mailHeaders)) {
         echo "Votre message a bien été envoyé !";
-        header("refresh:5;url=index.html");
+        header('Location: index.html');
     }else{
         echo "Erreur lors de l'envoi de l'e-mail.";
-        header("refresh:5;url=index.html");
-
+        header('Location: index.html');
     }
-
-
-
 ?>
